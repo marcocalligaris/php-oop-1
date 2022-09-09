@@ -38,14 +38,32 @@ $movie3 = new Movie('The blues brothers', 'John Landis', $movie3_plot, 1980);
 <body>
     <section>
         <h1>Lista dei film</h1>
-        <h2>Titolo</h2>
+        <h3>Titolo</h3>
         <p><?php echo $movie1->title ?></p>
-        <h2>Regista</h2>
+        <h3>Regista</h3>
         <address><?php echo $movie1->director ?></address>
-        <h2>Abstract</h2>
+        <h3>Abstract</h3>
         <p><?php echo $movie1->getAbstract() ?></p>
-        <h2>Trama</h2>
+        <h3>Trama</h3>
         <p><?php echo $movie1->plot ?></p>
+        <h1>Lista dei film</h1>
+        <h3>Titolo</h3>
+        <p><?php echo $movie2->title ?></p>
+        <h3>Regista</h3>
+        <address><?php echo $movie2->director ?></address>
+        <h3>Abstract</h3>
+        <p><?php echo $movie2->getAbstract() ?></p>
+        <h3>Trama</h3>
+        <p><?php echo $movie2->plot ?></p>
+        <h1>Lista dei film</h1>
+        <h3>Titolo</h3>
+        <p><?php echo $movie3->title ?></p>
+        <h3>Regista</h3>
+        <address><?php echo $movie3->director ?></address>
+        <h3>Abstract</h3>
+        <p><?php echo $movie3->getAbstract() ?></p>
+        <h3>Trama</h3>
+        <p><?php echo $movie3->plot ?></p>
     </section>
 </body>
 </html>
