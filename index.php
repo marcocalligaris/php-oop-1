@@ -46,7 +46,7 @@ $movie3 = new Movie('The blues brothers', 'John Landis', $movie3_plot, 1980);
         <p><?php echo $movie1->getAbstract() ?></p>
         <h3>Trama</h3>
         <p><?php echo $movie1->plot ?></p>
-        <h1>Lista dei film</h1>
+        <hr>
         <h3>Titolo</h3>
         <p><?php echo $movie2->title ?></p>
         <h3>Regista</h3>
@@ -55,7 +55,7 @@ $movie3 = new Movie('The blues brothers', 'John Landis', $movie3_plot, 1980);
         <p><?php echo $movie2->getAbstract() ?></p>
         <h3>Trama</h3>
         <p><?php echo $movie2->plot ?></p>
-        <h1>Lista dei film</h1>
+        <hr>
         <h3>Titolo</h3>
         <p><?php echo $movie3->title ?></p>
         <h3>Regista</h3>
